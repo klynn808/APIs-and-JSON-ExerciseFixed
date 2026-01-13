@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,17 @@ namespace APIsAndJSON
     {
         public static void ShalimarWeather()
         {
-            var client = new HttpClient();
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: false)
+                .Build();
 
-            string apiKey = "80fe6dfee60c2e2b963a7aa167a1daed";
+            string apiKey = config["APIKey:WeatherKey"];
             string city = "Shalimar,US";
 
+            var client = new HttpClient();
+
             var weatherURL = $"https://api.openweathermap.org/data/2.5/weather?zip=32579,US&units=imperial&appid={apiKey}";
+            
             var response = client.GetStringAsync(weatherURL).Result;
 
             JObject formattedResponse = JObject.Parse(response);

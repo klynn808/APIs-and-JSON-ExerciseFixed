@@ -1,10 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "9p6YtoPJLMA=",
+  "dgSpecHash": "ZX8oN6i4q2c=",
   "success": true,
   "projectFilePath": "C:\\Users\\KLYNN808\\Desktop\\repos\\APIs-and-JSON-ExerciseFixed\\APIsAndJSON\\APIsAndJSON.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KLYNN808\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512"
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.1\\microsoft.extensions.configuration.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.1\\microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.1\\microsoft.extensions.configuration.fileextensions.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.1\\microsoft.extensions.configuration.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.1\\microsoft.extensions.fileproviders.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.1\\microsoft.extensions.fileproviders.physical.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.1\\microsoft.extensions.filesystemglobbing.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\system.io.pipelines\\10.0.1\\system.io.pipelines.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\system.text.encodings.web\\10.0.1\\system.text.encodings.web.10.0.1.nupkg.sha512",
+    "C:\\Users\\KLYNN808\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
   ],
   "logs": []
 }
